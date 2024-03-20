@@ -74,7 +74,7 @@ nav .profile-link a:hover{
 .home-main{
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
-    height: 160%;
+    height: 100%;
     background-image:linear-gradient(to bottom, #2f303a66, #2f303a66), url(../assets/img/cover.jpg);
     background-position: center;
     background-repeat: no-repeat;
