@@ -1,0 +1,30 @@
+@media (max-width:900px) {
+    .blogs-main-new{
+        display: flex;
+        flex-direction: column;
+    }
+    .blogs-posts-container .post-container{
+    max-width: 45%;
+    }
+    .profile-container{
+        gap: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width:600px) {
+.blogs-posts-container .post-container{
+    max-width: 95%;
+}
+.home-main-text{
+    font-size: 3rem;
+}
+.home-main-button{
+    padding: 4px 8px;
+    height: 40px;
+}
+.home-main-button a{
+    font-size: 0.7rem;
+}
+
+}
