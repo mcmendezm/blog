@@ -211,3 +211,33 @@ footer{
     border-top: 20px solid var(--primary-color);
     margin-top: 80px;
 }
+.profile-main-container{
+    background-color: var(--background);
+    padding: 70px 40px;
+    margin-bottom: 50px;
+}
+.profile-main-container img{
+    width: 320px;
+    margin-right: 35px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.profile-container{
+    display: flex;
+    align-items: center;
+}
+.profile-main-curriculum{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.profile-main-curriculum a{
+    background-color: var(--primary-color);
+    border: none;
+    padding:10px 20px ;
+    border-radius: 20px;
+    color: var(--color-white);
+}
+.profile-main-curriculum a:hover{
+    transform: scale(1.2);
+}
